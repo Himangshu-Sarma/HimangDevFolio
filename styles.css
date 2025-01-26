@@ -318,6 +318,11 @@ main {
   align-items: space-around;
 }
 
+.internpos {
+  margin-top: .8em;
+  font-size: .8em;
+}
+
 .project {
   max-width: 30%;
   min-width: 18em;
@@ -344,6 +349,7 @@ body.dark .project {
 }
 
 .project__description {
+  font-size: .9em;
   margin-top: 1em;
 }
 
