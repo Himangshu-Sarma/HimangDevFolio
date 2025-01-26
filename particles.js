@@ -757,7 +757,7 @@ var pJS = function(tag_id, params){
     // below method is a way of limiting the total number of particles on the screen
 
     //  var limitNumOfParticles = Math.floor(pJS.canvas.el.width / 18);
-    if(pJS.particles.array.length < 150) {
+    if(pJS.particles.array.length < 120) {
       for(var i = 0; i < nb; i++){
         pJS.particles.array.push(
           new pJS.fn.particle(
