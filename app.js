@@ -1,8 +1,20 @@
 
-particlesJS.load('particles-js', 'particles.json', function() {
-  console.log('particles.js loaded - callback');
-});
+const handleResize = () => {
+  if(window.innerWidth < 500) {
+    particlesJS.load('particles-js', 'particlesMobile.json', function() {
+      console.log('particlesMobile.js loaded - callback');
+    })
+  }
+  else {
+    particlesJS.load('particles-js', 'particlesDesktop.json', function() {
+      console.log('particlesDesktop.js loaded - callback');
+    });
+  }
+}
 
+
+window.addEventListener("resize", handleResize);
+handleResize();
 
 
 
