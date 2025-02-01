@@ -432,6 +432,22 @@ body.dark .skills__list-item {
     height: 6em;
   }
 
+  .about {
+    margin: 2em 1em .4em .4em;
+  }
+
+  h1 {
+    font-size: 2.1em;
+  }
+
+  h2 {
+    font-size: 1.6em;
+  }
+
+  .about__desc {
+    font-size: .95em;
+  }
+
   .section {
     margin-top: 4em;
   }
@@ -473,10 +489,15 @@ body.dark .skills__list-item {
 
   .projects__grid {
     gap: 1.5em 1em;
+    margin: 0 3em;
   }
 
   .project {
     padding: 1em;
+  }
+
+  .skills__list {
+    width: 86%;
   }
 
   .footer {
